@@ -10,7 +10,7 @@ def start_program():
     for word in f.read().split(): 
         line_number += 1
         if word == term:    
-            print "Searching for %s in %s filename" % (word, filename)
+            print "Searching for %s in %s" % (word, filename)
             print "%s was successfully found in %s at line number %s" % (word, filename, line_number)
             
 start_program()
